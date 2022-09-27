@@ -13,9 +13,22 @@ header {
 
 .landing-screen {
     background: linear-gradient(180deg, rgba(155, 123, 218, 0.17) 0%, #FFFCEB 100%);
-    height: 100%;
+    height: 909px;
     display: flex;
     flex-direction: column;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+.main-row{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
 }
 
 .main-line-container {
@@ -89,6 +102,14 @@ header {
     cursor: pointer;
 }
 
+.mirrors-image {
+    width: 300px;
+    height: 300px;
+    transform: rotate(-30deg);
+    align-self: flex-end;
+    position: absolute;
+}
+
 .painting-container {
     width: 638px;
     left: 0px;
@@ -136,21 +157,18 @@ header {
 .eggs-image {
     width: 300px;
     height: 300px;
-    margin-top: 592px;
-    margin-right: 1048px;
+    margin-top: -22px;
+    margin-left: -13px;
+    transform: rotate(15deg);
 }
 
 .mirrors2-image {
     width: 300px;
     height: 300px;
+    transform: rotate(-30deg);
 }
 
 .cup-image {
-    width: 300px;
-    height: 300px;
-}
-
-.mirrors-image {
     width: 300px;
     height: 300px;
 }
@@ -163,4 +181,5 @@ header {
 .vase2-image {
     width: 300px;
     height: 300px;
+    transform: rotate(-35deg);
 }
