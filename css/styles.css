@@ -1,0 +1,166 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width: 100%;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.landing-screen {
+    background: linear-gradient(180deg, rgba(155, 123, 218, 0.17) 0%, #FFFCEB 100%);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-line-container {
+    margin-top: 40px;
+    position: absolute;
+    width: 1290px;
+    height: 70px;
+    left: 40px;
+    top: 40px;
+}
+
+.kseniia-bryzhko {
+    background: radial-gradient(255.8% 457.4% at 88.45% 24.64%, #C27FCF 0%, #0368FF 100%);
+    border-radius: 18px;
+    padding: 17px 36px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 146.5%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.about-me-button {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 155.5%;
+    color: #454545;
+    cursor: pointer;
+    border: 0;
+    background: none;
+}
+
+.products-button {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 155.5%;
+    color: #454545;
+    cursor: pointer;
+    border: 0;
+    background: none;
+}
+
+.useful-info-button {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 155.5%;
+    color: #454545;
+    cursor: pointer;
+    border: 0;
+    background: none;
+}
+
+.contacts-button {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 155.5%;
+    color: #454545;
+    cursor: pointer;
+    border: 0;
+    background: none;
+}
+
+.buy-now-button {
+    background: radial-gradient(255.8% 457.4% at 88.45% 24.64%, #C27FCF 0%, #0368FF 100%);
+    border-radius: 18px;
+    padding: 17px 36px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 146.5%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.painting-container {
+    width: 638px;
+    left: 0px;
+    top: 0px;
+    background: #BBBDBA;
+}
+
+.painting-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 129%;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(180deg, #1B18F9 0%, #1B18F9 46.35%, #E146AD 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    padding-top: 192px;
+    padding-left: 57px;
+    width: 450px;
+}
+
+.painting-descr {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 171.5%;
+    padding-top: 50px;
+    padding-left: 57px;
+    width: 350px;
+}
+
+.see-products-button {
+    background: radial-gradient(255.8% 457.4% at 88.45% 24.64%, #C27FCF 0%, #0368FF 100%);
+    border-radius: 18px;
+    padding: 17px 36px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 146.5%;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: 199px;
+    margin-top: 48px;
+    margin-bottom: 43px;
+}
+
+.eggs-image {
+    width: 300px;
+    height: 300px;
+    margin-top: 592px;
+    margin-right: 1048px;
+}
+
+.mirrors2-image {
+    width: 300px;
+    height: 300px;
+}
+
+.cup-image {
+    width: 300px;
+    height: 300px;
+}
+
+.mirrors-image {
+    width: 300px;
+    height: 300px;
+}
+
+.vase-image {
+    width: 300px;
+    height: 300px;
+}
+
+.vase2-image {
+    width: 300px;
+    height: 300px;
+}
