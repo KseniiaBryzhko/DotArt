@@ -1,0 +1,21 @@
+// utils
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+// base
+@import './base/base';
+@import './base/reset';
+
+// components
+@import './components/header';
+@import './components/container';
+@import './components/logo';
+@import './components/nav';
+@import './components/hero';
+@import './components/section';
+@import './components/about';
+@import './components/products';
+@import './components/info';
+@import './components/footer';
+@import './components/address';
+@import './components/socials';
