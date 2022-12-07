@@ -71,7 +71,31 @@ a {
   }
 }
 
+@media screen and (max-width: 1199px) {
+  .hero__image--large {
+    display: none;
+  }
+}
+
 .section {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .about__image--medium {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .about__image--large {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .info__image--medium {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
