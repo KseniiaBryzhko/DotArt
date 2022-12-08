@@ -12,6 +12,13 @@
   margin: -1px;
 }
 
+body {
+  color: #262549;
+  font-family: "League Spartan", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+
 h1,
 h2,
 h3,
@@ -50,9 +57,26 @@ a {
   text-decoration: none;
 }
 
+.header {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(155, 123, 218, 0.17)), to(#fffceb));
+  background: linear-gradient(180deg, rgba(155, 123, 218, 0.17) 0%, #fffceb 100%);
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.header__container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .container {
   width: 100%;
-  padding: 0 15px;
+  padding: 0 12px;
   margin: 0 auto;
 }
 @media screen and (min-width: 480px) {
@@ -71,15 +95,78 @@ a {
   }
 }
 
+.logo {
+  display: inline-block;
+  color: #ffffff;
+  background-color: #1d2183;
+  border-radius: 18px;
+  padding: 8px 15px;
+  font-size: 26px;
+  line-height: 1.47;
+  letter-spacing: 0.04em;
+}
+
 @media screen and (max-width: 1199px) {
   .hero__image--large {
     display: none;
   }
 }
 
+.hero__title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.29;
+  text-align: center;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+}
+
+.hero__descr {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 9px;
+  padding-right: 9px;
+  gap: 18px;
+  position: relative;
+}
+
+.hero__image--position {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.products-link {
+  display: inline-block;
+  color: #ffffff;
+  background-color: #1d2183;
+  border-radius: 18px;
+  padding: 8px 15px;
+  font-size: 26px;
+  line-height: 1.47;
+  letter-spacing: 0.04em;
+}
+
 .section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 22px;
+  padding-bottom: 12px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(155, 123, 218, 0.17)), to(#fffceb));
+  background: linear-gradient(180deg, rgba(155, 123, 218, 0.17) 0%, #fffceb 100%);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {

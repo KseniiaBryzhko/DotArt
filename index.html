@@ -6,32 +6,37 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Kseniia Bryzhko</title>
-
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+		integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
 	<header class="header">
-		<div class="container">
+		<div class="header__container container">
 			<a class="logo" href="">Kseniia Bryzhko</a>
 			<button class="">Menu</button>
-			<nav class="nav">
+			<!-- <nav class="nav">
 				<ul class="nav__list">
 					<li class="nav__item"><a href="#">About me</a></li>
 					<li class="nav__item"><a href="#">Products</a></li>
 					<li class="nav__item"><a href="#">Useful info</a></li>
 					<li class="nav__item"><a href="#">Contacts</a></li>
 				</ul>
-			</nav>
+			</nav> -->
 		</div>
 	</header>
 
 	<section class="hero section">
 		<div class="container">
-			<h1 class="hero__title">Stained glass and dot painting</h1>
+			<h1 class="hero__title">Stained glass and Dot painting</h1>
 			<p class="hero__descr">Handmade gifts and souvenirs.</p>
 			<p class="hero__descr">Finished products, customization</p>
-			<button class="btn" type="button">See products</button>
+			<a class="products-link" href="">See products</a>
 			<ul class="hero__list">
 				<li class="hero__item">
 					<img class="hero__image" srcset="
@@ -46,6 +51,17 @@
 				</li>
 				<li class="hero__item">
 					<img class="hero__image" srcset="
+										./images/hero/VaseS250w.jpg 250w, 
+										./images/hero/VaseS250w@2x.jpg 500w,
+										./images/hero/VaseM320w.jpg 320w,
+										./images/hero/VaseM320w@2x.jpg 640w,
+										./images/hero/VaseL350w.jpg 350w,
+										./images/hero/VaseL350w@2x.jpg 700w"
+						sizes="(min-width: 1200px) 350px, (min-width: 768px) 320px, (min-width: 480px) 250px, 100vw"
+						src="./images/hero/VaseS250w.jpg" alt="vase" loading="lazy" />
+				</li>
+				<li class="hero__item">
+					<img class="hero__image hero__image--position" srcset="
 						./images/hero/MirrorsS170w.jpg 170w, 
 						./images/hero/MirrorsS170w@2x.jpg 340w,
 						./images/hero/MirrorsM180w.jpg 180w,
@@ -55,17 +71,7 @@
 						sizes="(min-width: 1200px) 300px, (min-width: 768px) 180px, (min-width: 480px) 170px, 100vw"
 						src="./images/hero/MirrorsS170w.jpg" alt="mirrors" loading="lazy" />
 				</li>
-				<li class="hero__item">
-					<img class="hero__image" srcset="
-						./images/hero/VaseS250w.jpg 250w, 
-						./images/hero/VaseS250w@2x.jpg 500w,
-						./images/hero/VaseM320w.jpg 320w,
-						./images/hero/VaseM320w@2x.jpg 640w,
-						./images/hero/VaseL350w.jpg 350w,
-						./images/hero/VaseL350w@2x.jpg 700w"
-						sizes="(min-width: 1200px) 350px, (min-width: 768px) 320px, (min-width: 480px) 250px, 100vw"
-						src="./images/hero/VaseS250w.jpg" alt="vase" loading="lazy" />
-				</li>
+
 				<li class="hero__item">
 					<img class="hero__image hero__image--large" srcset="
 						./images/hero/Vase2L300w.jpg 300w,

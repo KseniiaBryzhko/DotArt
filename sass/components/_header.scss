@@ -1,0 +1,14 @@
+.header {
+  background: linear-gradient(180deg, rgba(155, 123, 218, 0.17) 0%, #fffceb 100%);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  // position: fixed;
+  // top: 0;
+  // left: 0;
+}
+
+.header__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

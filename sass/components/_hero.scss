@@ -3,3 +3,39 @@
     display: none;
   }
 }
+
+.hero__title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.29;
+  text-align: center;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+}
+
+.hero__descr {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero__list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 9px;
+  padding-right: 9px;
+  gap: 18px;
+  position: relative;
+}
+
+.hero__image--position {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
