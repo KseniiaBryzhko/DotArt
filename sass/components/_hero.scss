@@ -27,15 +27,10 @@
 
 .hero__list {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  padding-left: 9px;
-  padding-right: 9px;
-  gap: 18px;
-  position: relative;
-}
-
-.hero__image--position {
-  position: absolute;
-  left: 0;
-  bottom: 0;
+  padding-left: 8px;
+  padding-right: 8px;
+  gap: 14px;
+  max-height: 355px;
 }

@@ -3,3 +3,37 @@
     display: none;
   }
 }
+
+.info__title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.29;
+  text-align: center;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+}
+
+.info__subtitle,
+.info__descr-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info__descr {
+  list-style: inside;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.info__list {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 8px;
+  padding-right: 8px;
+  max-height: 355px;
+}

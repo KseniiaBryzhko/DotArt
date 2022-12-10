@@ -1,0 +1,36 @@
+.products__item {
+  position: relative;
+  width: 100%;
+}
+
+.products__item:not(:last-child) {
+  margin-bottom: 14px;
+}
+
+.products__title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.29;
+  text-align: center;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+}
+
+.products__descr {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.5;
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  left: 0;
+  bottom: 0;
+}

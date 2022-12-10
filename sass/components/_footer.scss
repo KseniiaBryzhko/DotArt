@@ -1,0 +1,31 @@
+.footer {
+  padding-bottom: 14px;
+}
+
+.footer__title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.29;
+  text-align: center;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+}
+
+.contacts__link {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: inherit;
+  align-items: baseline;
+}
+
+// .contacts {
+//   text-align: center;
+// }
