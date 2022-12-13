@@ -19,242 +19,247 @@
 	<header class="header">
 		<div class="header__container container">
 			<a class="logo" href="">Kseniia Bryzhko</a>
-			<button class="">Menu</button>
-			<!-- <nav class="nav">
-				<ul class="nav__list">
-					<li class="nav__item"><a href="#">About me</a></li>
-					<li class="nav__item"><a href="#">Products</a></li>
-					<li class="nav__item"><a href="#">Useful info</a></li>
-					<li class="nav__item"><a href="#">Contacts</a></li>
-				</ul>
-			</nav> -->
+			<button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">Menu</button>
+			<div class="menu">
+				<nav class="nav">
+					<ul class="nav__list">
+						<li class="nav__item"><a class="nav__link" href="#about">About me</a></li>
+						<li class="nav__item"><a class="nav__link" href="#products">Products</a></li>
+						<li class="nav__item"><a class="nav__link" href="#info">Useful info</a></li>
+						<li class="nav__item"><a class="nav__link" href="#contacts">Contacts</a></li>
+					</ul>
+				</nav>
+			</div>
 		</div>
 	</header>
 
-	<section class="hero section">
-		<div class="container">
-			<h1 class="hero__title">Stained Glass and Dot Painting</h1>
-			<p class="hero__descr">Handmade gifts and souvenirs.</p>
-			<p class="hero__descr">Finished products, customization</p>
-			<a class="products-link" href="">See products</a>
-			<ul class="hero__list">
-				<li class="hero__item">
-					<img class="hero__image" srcset="
-						./images/hero/EggsS170w.jpg 170w, 
-						./images/hero/EggsS170w@2x.jpg 340w,
-						./images/hero/EggsM180w.jpg 180w,
-						./images/hero/EggsM180w@2x.jpg 360w,
-						./images/hero/EggsL300w.jpg 300w,
-						./images/hero/EggsL300w@2x.jpg 600w"
-						sizes="(min-width: 1200px) 300px, (min-width: 768px) 180px, (min-width: 480px) 170px, 100vw"
-						src="./images/hero/EggsS170w.jpg" alt="eggs" loading="lazy" />
-				</li>
-				<li class="hero__item">
-					<img class="hero__image" srcset="
-						./images/hero/MirrorsS170w.jpg 170w, 
-						./images/hero/MirrorsS170w@2x.jpg 340w,
-						./images/hero/MirrorsM180w.jpg 180w,
-						./images/hero/MirrorsM180w@2x.jpg 360w,
-						./images/hero/MirrorsL300w.jpg 300w,
-						./images/hero/MirrorsL300w@2x.jpg 600w"
-						sizes="(min-width: 1200px) 300px, (min-width: 768px) 180px, (min-width: 480px) 170px, 100vw"
-						src="./images/hero/MirrorsS170w.jpg" alt="mirrors" loading="lazy" />
-				</li>
-				<li class="hero__item">
-					<img class="hero__image" srcset="
-						./images/hero/VaseS250w.jpg 250w, 
-						./images/hero/VaseS250w@2x.jpg 500w,
-						./images/hero/VaseM320w.jpg 320w,
-						./images/hero/VaseM320w@2x.jpg 640w,
-						./images/hero/VaseL350w.jpg 350w,
-						./images/hero/VaseL350w@2x.jpg 700w"
-						sizes="(min-width: 1200px) 350px, (min-width: 768px) 320px, (min-width: 480px) 250px, 100vw"
-						src="./images/hero/VaseS250w.jpg" alt="vase" loading="lazy" />
-				</li>
-				<li class="hero__item">
-					<img class="hero__image hero__image--large" srcset="
-						./images/hero/Vase2L300w.jpg 300w,
-						./images/hero/Vase2L300w@2x.jpg 600w" sizes="(min-width: 480px) 300px, 100vw" src="./images/hero/Vase2L300w.jpg"
-						alt="mirrors" loading="lazy" />
-				</li>
-			</ul>
-		</div>
-	</section>
+	<main>
+		<section class="hero section">
+			<div class="container">
+				<h1 class="hero__title">Stained Glass and Dot Painting</h1>
+				<p class="hero__descr">Handmade gifts and souvenirs.</p>
+				<p class="hero__descr">Finished products, customization</p>
+				<a class="products-link" href="#products">See products</a>
+				<ul class="hero__list">
+					<li class="hero__item">
+						<img class="hero__image" srcset="
+							./images/hero/EggsS170w.jpg 170w, 
+							./images/hero/EggsS170w@2x.jpg 340w,
+							./images/hero/EggsM180w.jpg 180w,
+							./images/hero/EggsM180w@2x.jpg 360w,
+							./images/hero/EggsL300w.jpg 300w,
+							./images/hero/EggsL300w@2x.jpg 600w"
+							sizes="(min-width: 1200px) 300px, (min-width: 768px) 180px, (min-width: 480px) 170px, 100vw"
+							src="./images/hero/EggsS170w.jpg" alt="Easter eggs" loading="lazy" />
+					</li>
+					<li class="hero__item">
+						<img class="hero__image" srcset="
+							./images/hero/MirrorsS170w.jpg 170w, 
+							./images/hero/MirrorsS170w@2x.jpg 340w,
+							./images/hero/MirrorsM180w.jpg 180w,
+							./images/hero/MirrorsM180w@2x.jpg 360w,
+							./images/hero/MirrorsL300w.jpg 300w,
+							./images/hero/MirrorsL300w@2x.jpg 600w"
+							sizes="(min-width: 1200px) 300px, (min-width: 768px) 180px, (min-width: 480px) 170px, 100vw"
+							src="./images/hero/MirrorsS170w.jpg" alt="Mirrors" loading="lazy" />
+					</li>
+					<li class="hero__item">
+						<img class="hero__image hero__image--position" srcset="
+							./images/hero/VaseS250w.jpg 250w, 
+							./images/hero/VaseS250w@2x.jpg 500w,
+							./images/hero/VaseM320w.jpg 320w,
+							./images/hero/VaseM320w@2x.jpg 640w,
+							./images/hero/VaseL350w.jpg 350w,
+							./images/hero/VaseL350w@2x.jpg 700w"
+							sizes="(min-width: 1200px) 350px, (min-width: 768px) 320px, (min-width: 480px) 250px, 100vw"
+							src="./images/hero/VaseS250w.jpg" alt="Vase" loading="lazy" />
+					</li>
+					<li class="hero__item">
+						<img class="hero__image hero__image--large" srcset="
+							./images/hero/Vase2L300w.jpg 300w,
+							./images/hero/Vase2L300w@2x.jpg 600w" sizes="(min-width: 480px) 300px, 100vw" src="./images/hero/Vase2L300w.jpg"
+							alt="Stained glass vase" loading="lazy" />
+					</li>
+				</ul>
+			</div>
+		</section>
 
-	<section class="about section">
-		<div class="container">
-			<h2 class="about__title">About me</h2>
-			<p class="about__descr">Hi, everyone! I am Ksenia,
-				a handmade decorator.
-				I am ready to bring to life any of your ideas and make unique gifts for you and your loved ones!</p>
-			<a class="products-link" href="">See products</a>
-			<ul class="about__list">
-				<li class="about__item">
-					<img class="about__image" srcset="
-						./images/me/Me1S170w.jpg 170w, 
-						./images/me/Me1S170w@2x.jpg 340w,
-						./images/me/Me1M350w.jpg 350w,
-						./images/me/Me1M350w@2x.jpg 700w,
-						./images/me/Me1L300w.jpg 300w,
-						./images/me/Me1L300w@2x.jpg 600w"
-						sizes="(min-width: 1200px) 300px, (min-width: 768px) 350px, (min-width: 480px) 170px, 100vw"
-						src="./images/me/Me1S170w.jpg" alt="me" loading="lazy" />
-				</li>
-				<li class="about__item">
-					<img class="about__image about__image--medium" srcset="
-										./images/me/Me3S170w.jpg 170w, 
-										./images/me/Me3S170w@2x.jpg 340w,
-										./images/me/Me3L300w.jpg 300w,
-										./images/me/Me3L300w@2x.jpg 600w" sizes="(min-width: 1200px) 300px, (min-width: 480px) 170px, 100vw"
-						src="./images/me/Me1S170w.jpg" alt="me" loading="lazy" />
-				</li>
-				<li class="about__item">
-					<img class="hero__image" srcset="
-						./images/me/Me2S250w.jpg 250w, 
-						./images/me/Me2S250w@2x.jpg 500w,
-						./images/me/Me2M320w.jpg 320w,
-						./images/me/Me2M320w@2x.jpg 640w,
-						./images/me/Me2L320w.jpg 350w,
-						./images/me/Me2L320w@2x.jpg 700w"
-						sizes="(min-width: 1200px) 350px, (min-width: 768px) 320px, (min-width: 480px) 250px, 100vw"
-						src="./images/me/Me2S250w.jpg" alt="vase" loading="lazy" />
-				</li>
-				<li class="about__item">
-					<img class="about__image about__image--large" srcset="
-						./images/me/Me4L300w.jpg 300w,
-						./images/me/Me4L300w@2x.jpg 600w" sizes="(min-width: 480px) 300px, 100vw" src="./images/me/Me4L300w.jpg"
-						alt="mirrors" loading="lazy" />
-				</li>
-			</ul>
-		</div>
-	</section>
+		<section class="about section" id="about">
+			<div class="container">
+				<h2 class="about__title">About me</h2>
+				<p class="about__descr">Hi, everyone! I am Ksenia,
+					a handmade decorator.
+					I am ready to bring to life any of your ideas and make unique gifts for you and your loved ones!</p>
+				<a class="products-link" href="#products">See products</a>
+				<ul class="about__list">
+					<li class="about__item">
+						<img class="about__image" srcset="
+							./images/me/Me1S170w.jpg 170w, 
+							./images/me/Me1S170w@2x.jpg 340w,
+							./images/me/Me1M350w.jpg 350w,
+							./images/me/Me1M350w@2x.jpg 700w,
+							./images/me/Me1L300w.jpg 300w,
+							./images/me/Me1L300w@2x.jpg 600w"
+							sizes="(min-width: 1200px) 300px, (min-width: 768px) 350px, (min-width: 480px) 170px, 100vw"
+							src="./images/me/Me1S170w.jpg" alt="Kseniia's photo" loading="lazy" />
+					</li>
+					<li class="about__item">
+						<img class="about__image about__image--medium" srcset="
+											./images/me/Me3S170w.jpg 170w, 
+											./images/me/Me3S170w@2x.jpg 340w,
+											./images/me/Me3L300w.jpg 300w,
+											./images/me/Me3L300w@2x.jpg 600w" sizes="(min-width: 1200px) 300px, (min-width: 480px) 170px, 100vw"
+							src="./images/me/Me1S170w.jpg" alt="Kseniia's photo" loading="lazy" />
+					</li>
+					<li class="about__item">
+						<img class="hero__image" srcset="
+							./images/me/Me2S250w.jpg 250w, 
+							./images/me/Me2S250w@2x.jpg 500w,
+							./images/me/Me2M320w.jpg 320w,
+							./images/me/Me2M320w@2x.jpg 640w,
+							./images/me/Me2L320w.jpg 350w,
+							./images/me/Me2L320w@2x.jpg 700w"
+							sizes="(min-width: 1200px) 350px, (min-width: 768px) 320px, (min-width: 480px) 250px, 100vw"
+							src="./images/me/Me2S250w.jpg" alt="Kseniia's photo" loading="lazy" />
+					</li>
+					<li class="about__item">
+						<img class="about__image about__image--large" srcset="
+							./images/me/Me4L300w.jpg 300w,
+							./images/me/Me4L300w@2x.jpg 600w" sizes="(min-width: 480px) 300px, 100vw" src="./images/me/Me4L300w.jpg"
+							alt="Kseniia's photo" loading="lazy" />
+					</li>
+				</ul>
+			</div>
+		</section>
 
-	<section class="products section">
-		<div class="container">
-			<h2 class="products__title">Products</h2>
-			<ul class="products__list">
-				<li class="products__item">
-					<img class="products__image" srcset="
-						./images/products/VaseS450w.jpg 450w, 
-						./images/products/VaseS450w@2x.jpg 900w,
-						./images/products/VaseM200w.jpg 200w,
-						./images/products/VaseM200w@2x.jpg 400w,
-						./images/products/VaseL300w.jpg 300w,
-						./images/products/VaseL300w@2x.jpg 600w"
-						sizes="(min-width: 1200px) 300px, (min-width: 768px) 200px, (min-width: 480px) 450px, 100vw"
-						src="./images/products/VaseS450w.jpg" alt="me" loading="lazy" />
-					<p class="products__descr">Vases and tableware</p>
-				</li>
-				<li class="products__item">
-					<img class="products__image" srcset="
-						./images/products/MirrorsS450w.jpg 450w, 
-						./images/products/MirrorsS450w@2x.jpg 900w,
-						./images/products/MirrorsM200w.jpg 200w,
-						./images/products/MirrorsM200w@2x.jpg 400w,
-						./images/products/MirrorsL300w.jpg 300w,
-						./images/products/MirrorsL300w@2x.jpg 600w"
-						sizes="(min-width: 1200px) 300px, (min-width: 768px) 200px, (min-width: 480px) 450px, 100vw"
-						src="./images/products/MirrorsS450w.jpg" alt="me" loading="lazy" />
-					<p class="products__descr">Mirrors</p>
-				</li>
-				<li class="products__item">
-					<img class="products__image" srcset="
-						./images/products/MagnetsS450w.jpg 450w, 
-						./images/products/MagnetsS450w@2x.jpg 900w,
-						./images/products/MagnetsM200w.jpg 200w,
-						./images/products/MagnetsM200w@2x.jpg 400w,
-						./images/products/MagnetsL300w.jpg 300w,
-						./images/products/MagnetsL300w@2x.jpg 600w"
-						sizes="(min-width: 1200px) 300px, (min-width: 768px) 200px, (min-width: 480px) 450px, 100vw"
-						src="./images/products/MagnetsS450w.jpg" alt="me" loading="lazy" />
-					<p class="products__descr">Magnets</p>
-				</li>
-				<li class="products__item">
-					<img class="products__image" srcset="
-						./images/products/EggsS450w.jpg 450w, 
-						./images/products/EggsS450w@2x.jpg 900w,
-						./images/products/EggsM200w.jpg 200w,
-						./images/products/EggsM200w@2x.jpg 400w,
-						./images/products/EggsL300w.jpg 300w,
-						./images/products/EggsL300w@2x.jpg 600w"
-						sizes="(min-width: 1200px) 300px, (min-width: 768px) 200px, (min-width: 480px) 450px, 100vw"
-						src="./images/products/EggsS450w.jpg" alt="me" loading="lazy" />
-					<p class="products__descr">Easter eggs</p>
-				</li>
-				<li class="products__item">
-					<img class="products__image" srcset="
-						./images/products/LightsS450w.jpg 450w, 
-						./images/products/LightsS450w@2x.jpg 900w,
-						./images/products/LightsM200w.jpg 200w,
-						./images/products/LightsM200w@2x.jpg 400w,
-						./images/products/LightsL300w.jpg 300w,
-						./images/products/LightsL300w@2x.jpg 600w"
-						sizes="(min-width: 1200px) 300px, (min-width: 768px) 200px, (min-width: 480px) 450px, 100vw"
-						src="./images/products/LightsS450w.jpg" alt="me" loading="lazy" />
-					<p class="products__descr">Flashlights</p>
-				</li>
-				<li class="products__item">
-					<img class="products__image" srcset="
-						./images/products/OthersS450w.jpg 450w, 
-						./images/products/OthersS450w@2x.jpg 900w,
-						./images/products/OthersM200w.jpg 200w,
-						./images/products/OthersM200w@2x.jpg 400w,
-						./images/products/OthersL300w.jpg 300w,
-						./images/products/OthersL300w@2x.jpg 600w"
-						sizes="(min-width: 1200px) 300px, (min-width: 768px) 200px, (min-width: 480px) 450px, 100vw"
-						src="./images/products/OthersS450w.jpg" alt="me" loading="lazy" />
-					<p class="products__descr">Others</p>
-				</li>
-			</ul>
-		</div>
-	</section>
+		<section class="products section" id="products">
+			<div class="container">
+				<h2 class="products__title">Products</h2>
+				<ul class="products__list">
+					<li class="products__item">
+						<img class="products__image" srcset="
+							./images/products/VaseS450w.jpg 450w, 
+							./images/products/VaseS450w@2x.jpg 900w,
+							./images/products/VaseM200w.jpg 200w,
+							./images/products/VaseM200w@2x.jpg 400w,
+							./images/products/VaseL300w.jpg 300w,
+							./images/products/VaseL300w@2x.jpg 600w"
+							sizes="(min-width: 1200px) 300px, (min-width: 768px) 200px, (min-width: 480px) 450px, 100vw"
+							src="./images/products/VaseS450w.jpg" alt="Stained glass vase" loading="lazy" />
+						<p class="products__descr">Vases and tableware</p>
+					</li>
+					<li class="products__item">
+						<img class="products__image" srcset="
+							./images/products/MirrorsS450w.jpg 450w, 
+							./images/products/MirrorsS450w@2x.jpg 900w,
+							./images/products/MirrorsM200w.jpg 200w,
+							./images/products/MirrorsM200w@2x.jpg 400w,
+							./images/products/MirrorsL300w.jpg 300w,
+							./images/products/MirrorsL300w@2x.jpg 600w"
+							sizes="(min-width: 1200px) 300px, (min-width: 768px) 200px, (min-width: 480px) 450px, 100vw"
+							src="./images/products/MirrorsS450w.jpg" alt="Mirrors" loading="lazy" />
+						<p class="products__descr">Mirrors</p>
+					</li>
+					<li class="products__item">
+						<img class="products__image" srcset="
+							./images/products/MagnetsS450w.jpg 450w, 
+							./images/products/MagnetsS450w@2x.jpg 900w,
+							./images/products/MagnetsM200w.jpg 200w,
+							./images/products/MagnetsM200w@2x.jpg 400w,
+							./images/products/MagnetsL300w.jpg 300w,
+							./images/products/MagnetsL300w@2x.jpg 600w"
+							sizes="(min-width: 1200px) 300px, (min-width: 768px) 200px, (min-width: 480px) 450px, 100vw"
+							src="./images/products/MagnetsS450w.jpg" alt="Magnets" loading="lazy" />
+						<p class="products__descr">Magnets</p>
+					</li>
+					<li class="products__item">
+						<img class="products__image" srcset="
+							./images/products/EggsS450w.jpg 450w, 
+							./images/products/EggsS450w@2x.jpg 900w,
+							./images/products/EggsM200w.jpg 200w,
+							./images/products/EggsM200w@2x.jpg 400w,
+							./images/products/EggsL300w.jpg 300w,
+							./images/products/EggsL300w@2x.jpg 600w"
+							sizes="(min-width: 1200px) 300px, (min-width: 768px) 200px, (min-width: 480px) 450px, 100vw"
+							src="./images/products/EggsS450w.jpg" alt="Easter eggs" loading="lazy" />
+						<p class="products__descr">Easter eggs</p>
+					</li>
+					<li class="products__item">
+						<img class="products__image" srcset="
+							./images/products/LightsS450w.jpg 450w, 
+							./images/products/LightsS450w@2x.jpg 900w,
+							./images/products/LightsM200w.jpg 200w,
+							./images/products/LightsM200w@2x.jpg 400w,
+							./images/products/LightsL300w.jpg 300w,
+							./images/products/LightsL300w@2x.jpg 600w"
+							sizes="(min-width: 1200px) 300px, (min-width: 768px) 200px, (min-width: 480px) 450px, 100vw"
+							src="./images/products/LightsS450w.jpg" alt="Flashlights" loading="lazy" />
+						<p class="products__descr">Flashlights</p>
+					</li>
+					<li class="products__item">
+						<img class="products__image" srcset="
+							./images/products/OthersS450w.jpg 450w, 
+							./images/products/OthersS450w@2x.jpg 900w,
+							./images/products/OthersM200w.jpg 200w,
+							./images/products/OthersM200w@2x.jpg 400w,
+							./images/products/OthersL300w.jpg 300w,
+							./images/products/OthersL300w@2x.jpg 600w"
+							sizes="(min-width: 1200px) 300px, (min-width: 768px) 200px, (min-width: 480px) 450px, 100vw"
+							src="./images/products/OthersS450w.jpg" alt="Pots" loading="lazy" />
+						<p class="products__descr">Others</p>
+					</li>
+				</ul>
+			</div>
+		</section>
 
-	<section class="info section">
-		<div class="container">
-			<h2 class="info__title">Useful info</h2>
-			<p class="info__subtitle">For a longer service life of products with dot and stained glass painting, you should
-				follow some rules:</p>
-			<ul class="info__descr">
-				<li class="info__descr-item">Covers and diaries should be wiped with a cloth moistened with water
-					(not alcohol-containing liquids!).
-				</li>
-				<li class="info__descr-item">Don't twist them too hard.
-				</li>
-				<li class="info__descr-item">Painted glass products can be washed - carefully and only by hand with
-					a soft sponge, in warm (not hot) water and without the use of abrasive products.
-				</li>
-				<li class="info__descr-item">In no case should the products be soaked in water, put in the refrigerator and
-					exposed to
-					open flame.
-				</li>
-			</ul>
-			<p class="info__subtitle">Follow these recommendations, and painted products will serve you for a long time!</p>
-			<a class="products-link" href="">See products</a>
-			<ul class="info__list">
-				<li class="info__item">
-					<img class="info__image" srcset="
-						./images/info/CupS200w.jpg 200w, 
-						./images/info/CupS200w@2x.jpg 400w,
-						./images/info/CupM170w.jpg 170w,
-						./images/info/CupM170w@2x.jpg 340w,
-						./images/info/CupL300w.jpg 300w,
-						./images/info/CupL300w@2x.jpg 600w"
-						sizes="(min-width: 1200px) 300px, (min-width: 768px) 170px, (min-width: 480px) 200px, 100vw"
-						src="./images/info/CupS200w.jpg" alt="mirrors" loading="lazy" />
-				</li>
-				<li class="info__item">
-					<img class="info__image info__image--medium" srcset="
-						./images/info/MirrorsS200w.jpg 200w, 
-						./images/info/MirrorsS200w@2x.jpg 400w,
-						./images/info/MirrorsL300w.jpg 300w,
-						./images/info/MirrorsL300w@2x.jpg 600w" sizes="(min-width: 1200px) 300px, (min-width: 480px) 200px, 100vw"
-						src="./images/info/MirrorsS200w.jpg" alt="mirrors" loading="lazy" />
-				</li>
-			</ul>
-		</div>
-	</section>
+		<section class="info section" id="info">
+			<div class="container">
+				<h2 class="info__title">Useful info</h2>
+				<p class="info__subtitle">For a longer service life of products with dot and stained glass painting, you should
+					follow some rules:</p>
+				<ul class="info__descr">
+					<li class="info__descr-item">Covers and diaries should be wiped with a cloth moistened with water
+						(not alcohol-containing liquids!).
+					</li>
+					<li class="info__descr-item">Don't twist them too hard.
+					</li>
+					<li class="info__descr-item">Painted glass products can be washed - carefully and only by hand with
+						a soft sponge, in warm (not hot) water and without the use of abrasive products.
+					</li>
+					<li class="info__descr-item">In no case should the products be soaked in water, put in the refrigerator and
+						exposed to
+						open flame.
+					</li>
+				</ul>
+				<p class="info__subtitle">Follow these recommendations, and painted products will serve you for a long time!</p>
+				<a class="products-link" href="#products">See products</a>
+				<ul class="info__list">
+					<li class="info__item">
+						<img class="info__image" srcset="
+							./images/info/CupS200w.jpg 200w, 
+							./images/info/CupS200w@2x.jpg 400w,
+							./images/info/CupM170w.jpg 170w,
+							./images/info/CupM170w@2x.jpg 340w,
+							./images/info/CupL300w.jpg 300w,
+							./images/info/CupL300w@2x.jpg 600w"
+							sizes="(min-width: 1200px) 300px, (min-width: 768px) 170px, (min-width: 480px) 200px, 100vw"
+							src="./images/info/CupS200w.jpg" alt="Cup" loading="lazy" />
+					</li>
+					<li class="info__item">
+						<img class="info__image info__image--medium" srcset="
+							./images/info/MirrorsS200w.jpg 200w, 
+							./images/info/MirrorsS200w@2x.jpg 400w,
+							./images/info/MirrorsL300w.jpg 300w,
+							./images/info/MirrorsL300w@2x.jpg 600w" sizes="(min-width: 1200px) 300px, (min-width: 480px) 200px, 100vw"
+							src="./images/info/MirrorsS200w.jpg" alt="Mirrors" loading="lazy" />
+					</li>
+				</ul>
+			</div>
+		</section>
 
-	<footer class="footer">
+	</main>
+
+	<footer class="footer" id="contacts">
 		<div class="container">
 			<h2 class="footer__title">Contacts</h2>
 			<address class="contacts">
@@ -303,6 +308,39 @@
 			</ul>
 		</div>
 	</footer>
+
+	<div class="menu-container js-menu-container" id="mobile-menu">
+		<button class="menu-toggle js-close-menu">
+			<svg class="menu-toggle__icon" width="34" height="34">
+				<use href="./images/symbol-defs.svg#icon-close-menu"></use>
+			</svg>
+		</button>
+
+		<div class="mobile-menu">
+			<nav class="mobile-nav">
+				<ul class="mobile-nav__list">
+					<li class="mobile-nav__item">
+						<a class="mobile-nav__link" href="#about">About me</a>
+					</li>
+					<li class="mobile-nav__item">
+						<a class="mobile-nav__link" href="#products">Products</a>
+					</li>
+					<li class="mobile-nav__item">
+						<a class="mobile-nav__link" href="#info">Useful info</a>
+					</li>
+					<li class="mobile-nav__item">
+						<a class="mobile-nav__link" href="#contacts">Contacts</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+	</div>
+
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+		integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+		crossorigin="anonymous"></script>
+	<script defer src="js/mobile-menu.js"></script>
 
 </body>
 

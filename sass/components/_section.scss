@@ -1,6 +1,15 @@
 .section {
-  padding-top: 22px;
+  padding-top: 80px;
   padding-bottom: 12px;
+
+  // @media screen and (min-width: 1200px) {
+  //   padding-top: 94px;
+  //   padding-bottom: 94px;
+  // }
+}
+
+.section:first-child {
+  padding-top: 22px;
 
   // @media screen and (min-width: 1200px) {
   //   padding-top: 94px;

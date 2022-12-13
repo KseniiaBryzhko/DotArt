@@ -13,6 +13,12 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 8px;
+
+  @media screen and (min-width: 768px) {
+    text-align: start;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
 }
 
 .hero__descr {
@@ -23,6 +29,11 @@
   width: 300px;
   margin-left: auto;
   margin-right: auto;
+
+  @media screen and (min-width: 768px) {
+    text-align: start;
+    margin-left: 0;
+  }
 }
 
 .hero__list {
@@ -33,4 +44,21 @@
   padding-right: 8px;
   gap: 14px;
   max-height: 355px;
+
+  @media screen and (min-width: 768px) {
+    padding-left: 0;
+    padding-right: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    gap: 29px;
+  }
+}
+
+.hero__image--position {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
 }
